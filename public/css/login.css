@@ -12,6 +12,7 @@
 }
 .login-grp{
     background-color: rgb(241,247,254);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     border-radius: 15px;
     padding: 35px 20px;
     border-top: 4px solid  rgb(62,70,132);
