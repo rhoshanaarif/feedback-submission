@@ -10,6 +10,9 @@
 <body>
     <section class="form-section">
         <form action="show" class="login-grp">
+            <div class="logo-grp">
+                <img class="logo" src="{{ asset('images/akshaya.jpeg') }}" alt="">
+            </div>
             <div class="field-grp">
                 <label class="head-title" for="registernumber">Register Number</label>
                 <input class="input-field" type="text" name="registernumber">

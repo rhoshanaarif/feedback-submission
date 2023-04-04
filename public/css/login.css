@@ -25,15 +25,71 @@
 .menus{
     cursor: pointer;
 }
+.logo-grp{
+    margin: auto;
+    width: 80px;
+    height: 80px;
+    padding-bottom: 50px;
+}
+.logo{
+    width: 100%;
+    margin-bottom: 25px;
+   
+}
+.select-style {
+    
+    margin: 2px;
+    border: 1px solid #ccc;
+    width: 100%;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: #fff;
+    background: #fff;
+    position: relative;
+}
+
+.select-style select {
+   
+    width: 100%;
+    border: none;
+    box-shadow: none;
+    background-color: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.select-style:after {
+    top: 50%;
+    left: 91%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+    border-color: rgba(0, 0, 0, 0);
+    border-top-color: #000000;
+    border-width: 5px;
+    margin-top: -2px;
+    z-index: 100;
+}
+
+.select-style select:focus {
+    outline: none;
+}
 .field-grp{
     display: flex;
     flex-direction: column;
     font-size: 18px;
+    
     margin-bottom: 20px;
 }
 .input-field {
     padding: 8px;
     border: none;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 1px;
     outline: none;
     font-size: 16px;
 }

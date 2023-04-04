@@ -13,27 +13,31 @@
     <form action = "/admin/feedback/store" class="login-grp">
     <div class="field-grp">
         <label class="head-title" for="department">Choose a department:</label>
-          <select class="input-field menus" name="department" id="department">
-            <option value="CSE">CSE</option>
-            <option value="ECE">ECE</option>
-            <option value="MECHATRONICS">MECHATRONICS</option>
-            <option value="MECHANICAL">MECHANICAL</option>
-            <option value="CIVIL">CIVIL</option>
-          </select>
+        <div class="select-style">
+            <select class="input-field menus" name="department" id="department">
+              <option value="CSE">CSE</option>
+              <option value="ECE">ECE</option>
+              <option value="MECHATRONICS">MECHATRONICS</option>
+              <option value="MECHANICAL">MECHANICAL</option>
+              <option value="CIVIL">CIVIL</option>
+            </select>
+          </div>
           
       </div>
       <div class="field-grp">
       <label class="head-title" for="year">Choose semester:</label>
-      <select class="input-field menus" name="semester" id="semester">
-        <option value="1">1</option>
-        <option value="2">2</option>
-        <option value="3">3</option>
-        <option value="4">4</option>
-        <option value="5">5</option>
-        <option value="6">6</option>
-        <option value="7">7</option>
-        <option value="8">8</option>
-      </select>
+      <div class="select-style">
+        <select class="input-field menus" name="semester" id="semester">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+        </select>
+        </div>
       </div>
       <input class="submit-field" type="submit" value="Submit">
       
