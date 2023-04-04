@@ -1,0 +1,29 @@
+body{
+	background-color: #ede7f6;
+	font-family: Roboto,Sans-serif;
+}
+table, th, td {
+    border: 1px solid rgb(12, 12, 12);
+    background-color: white;
+    border-collapse: collapse;
+    margin: 40px auto;
+}
+td{
+    padding: 10px;
+}
+.heading tr{
+    font-size: 18px;
+    font-weight: 600;
+}
+.count-row tr{
+    padding-bottom: 10px;
+}
+.submit-btn{
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: #2b91dd;
+    padding: 5px 10px;
+    border-radius: 5px;
+
+}
