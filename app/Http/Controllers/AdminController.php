@@ -23,14 +23,6 @@ class AdminController extends Controller
         
     }
 
-    public function showFeedbackChart()
-    {
-        $feedbackData = Value::select('overallfeedback', \DB::raw('count(*) as count'))
-                                ->groupBy('overallfeedback')
-                                ->get()
-                                ->toArray();
 
-        return view('feedback-chart', ['feedbackData' => $feedbackData]);
-    }
 
 }

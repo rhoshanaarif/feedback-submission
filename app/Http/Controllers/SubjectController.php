@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\User;
 use App\Models\Subject;
 use App\Models\Value;
+use Illuminate\Support\Facades\Auth;
 
 class SubjectController extends Controller
 {
@@ -14,8 +15,7 @@ class SubjectController extends Controller
         $registernumber = $request->get('registernumber');
         $user = User::where('registernumber', $registernumber)->first();
 
-        $subjects = Subject::select('subjects', 'subjectcode')->where('department', $user->department)->where('semester', $user->semester)->get();
-        return view('show', ['subjects' => $subjects, 'registernumber'=>$registernumber]);
+        
     
         
     }
@@ -56,6 +56,33 @@ class SubjectController extends Controller
         return view('success');
 
     }
-    
 
+    public function index(Request $request){
+
+        $registernumber = $request->get('registernumber');
+        $user = User::where('registernumber', $registernumber)->first();
+        $password = $request->get('password');
+        
+
+        $credentials = [
+            'email' => $user->email,
+            'password' => $password,
+        ];
+
+        
+        if(Auth::attempt($credentials)) {
+            $subjects = Subject::select('subjects', 'subjectcode')->where('department', $user->department)->where('semester', $user->semester)->get();
+        return view('show', ['subjects' => $subjects, 'registernumber'=>$registernumber]);      
+        }
+        else{
+            return "Error 404";
+        }
+    }
+
+    
+    
+    
 }
+
+
+

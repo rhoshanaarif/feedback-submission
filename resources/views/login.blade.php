@@ -9,7 +9,9 @@
 </head>
 <body>
     <section class="form-section">
-        <form action="show" class="login-grp">
+        <form action="/login" method=POST class="login-grp">
+            @csrf
+
             <div class="logo-grp">
                 <img class="logo" src="{{ asset('images/akshaya.jpeg') }}" alt="">
             </div>
@@ -24,6 +26,9 @@
             <input type="submit" class="submit-field">
         </form>
     </section>
+
+
+
     
 </body>
 </html>

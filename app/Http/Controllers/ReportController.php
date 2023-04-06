@@ -35,7 +35,7 @@ use App\Exports\HS3251;
 use App\Exports\HS8581;
 use App\Exports\MA3251;
 use App\Exports\PH3256;
-use App\Exports\ProfeesionalElectiveIV;
+use App\Exports\ProfessionalElectiveIV;
 use App\Exports\ProfessionalElectiveV;
 
 
@@ -113,6 +113,9 @@ class ReportController extends Controller
 
     public function CS3461(){
         return Excel::download(new CS3461(), 'feedback.xlsx');
+    }
+    public function CS3481(){
+        return Excel::download(new CS3481(), 'feedback.xlsx');
     }
     public function CS8651(){
         return Excel::download(new CS8651(), 'feedback.xlsx');

@@ -8,13 +8,7 @@
     <link href="{{ asset('css/subject.css') }}" rel="stylesheet">
 </head>
  
-<?php
-    // Retrieve the URL variables (using PHP).
-    $registernumber = $_GET['registernumber'];
 
-    
- 
-?>
 
 <body>
     
@@ -39,6 +33,12 @@
         @endforeach
     </tbody>
 </table>
+
+<div>
+        <a href="/admin/dashboard">admin login</a>
+</div>
+
+
 
 
 

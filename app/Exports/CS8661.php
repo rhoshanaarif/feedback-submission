@@ -6,7 +6,7 @@ use App\Models\Value;
 use Illuminate\Contracts\View\View;
 use Maatwebsite\Excel\Concerns\FromView;
 
-class FeedbackExportView implements FromView
+class CS8661 implements FromView
 {
     /**
     * @return \Illuminate\Support\Collection
