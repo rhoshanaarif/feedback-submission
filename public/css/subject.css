@@ -44,6 +44,9 @@ td{
     background-color: #2b91dd;
     padding: 5px 10px;
     border-radius: 5px;
+    border: none;
+    display: block;
+    min-width: max-content;
 
 }
 @media screen and (max-width:768px) {
