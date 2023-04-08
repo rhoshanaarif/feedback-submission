@@ -17,6 +17,16 @@ select{
 	max-width: 301px;
     margin: 10px auto;
 }
+.select-sub{
+	flex-direction: row !important;
+	gap: 20px;
+	justify-content: center;
+}
+.default-menu{
+	max-width: unset;
+	margin: unset;
+
+}
 .form{
 	height: 1100px;
 	width: 600px;

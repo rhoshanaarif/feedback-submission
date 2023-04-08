@@ -33,8 +33,6 @@ class SubjectController extends Controller
         $values->registernumber = $registernumber;
         $values->name = $user->name;
         $values->email = $user->email;
-        
-        
         $values->department = $user->department;
         $values->semester = $user->semester;
         $values->subject = $request->get('subject');

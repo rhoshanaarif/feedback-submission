@@ -1,6 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
 body{
 	background-color: #ede7f6;
 	font-family: Roboto,Sans-serif;
+    flex-direction: column;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+    margin: auto;
+    
+}
+.admin-btn{
+    background: #3c4858;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    color: white;
+    position: absolute;
+    top: 30px;
+    right: 80px;
 }
 table, th, td {
     border: 1px solid rgb(12, 12, 12);
@@ -27,3 +46,17 @@ td{
     border-radius: 5px;
 
 }
+@media screen and (max-width:768px) {
+    body{
+        padding: 0px 10px;
+        width: 100%;
+    }
+    table{
+        max-width: 200px;
+    }    
+    .admin-btn{
+        right: 27px;
+    }
+}
+
+

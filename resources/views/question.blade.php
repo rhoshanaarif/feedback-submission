@@ -41,7 +41,8 @@
             <p class="required">*Required</p>
         </div>
 
-        <div class="menus">
+     <div class="name-div select-sub">
+     <div class="menus default-menu">
                     <label for="subject" name="choosen" class="satisfy-num">Subject</label>
                     <select  name="subject" id="subject">
                         <option value="{{$subject}}">{{$subject}}</option>
@@ -49,36 +50,37 @@
                     </select>
                 </div>
 
-                <div class="menus">
+                <div class="menus default-menu">
                     <label for="subjectcode" name="choosen" class="satisfy-num">Subjectcode</label>
                     <select  name="subjectcode" id="subjectcode">
                         <option value="{{$subjectcode}}">{{$subjectcode}}</option>
         
                     </select>
                 </div>
+     </div>
     <div class="name-div">
 			<div class="name">Punctuality<span class="required">*</span></div>
             <div class="remark-forum">
                 <div>Satisfactory</div>               
                 <div class="input-div">
                     <label for="one" name="choosen" class="satisfy-num">1</label>
-                    <input id="one" type="radio" name="answer" value=1 placeholder="">
+                    <input id="one" type="radio" name="answer" required value=1 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="one" name="choosen" class="satisfy-num">2</label>
-                    <input id="one" type="radio" name="answer" value=2 placeholder="">
+                    <input id="one" type="radio" name="answer"  required value=2 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="one" name="choosen" class="satisfy-num">3</label>
-                    <input id="one" type="radio" name="answer" value=3 placeholder="">
+                    <input id="one" type="radio" name="answer" required value=3 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="one" name="choosen" class="satisfy-num">4</label>
-                    <input id="one" type="radio" name="answer" value=4 placeholder="">
+                    <input id="one" type="radio" name="answer" required value=4 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="one" name="choosen" class="satisfy-num">5</label>
-                    <input id="one" type="radio" name="answer" value=5 placeholder="">
+                    <input id="one" type="radio" name="answer" required value=5 placeholder="">
                 </div>
                 <div>
                     <span>excellent</span>
@@ -91,23 +93,23 @@
                 <div>Satisfactory</div>               
                 <div class="input-div">
                     <label for="two" name="choosen" class="satisfy-num">1</label>
-                    <input id="two" type="radio" name="answer-1" value=1 placeholder="">
+                    <input id="two" type="radio" required name="answer-1" value=1 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="two" name="choosen" class="satisfy-num">2</label>
-                    <input id="two" type="radio" name="answer-1" value=2 placeholder="">
+                    <input id="two" type="radio" required name="answer-1" value=2 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="two" name="choosen" class="satisfy-num">3</label>
-                    <input id="two" type="radio" name="answer-1" value=3 placeholder="">
+                    <input id="two" type="radio" required name="answer-1" value=3 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="two" name="choosen" class="satisfy-num">4</label>
-                    <input id="two" type="radio" name="answer-1" value=4 placeholder="">
+                    <input id="two" type="radio" required name="answer-1" value=4 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="two" name="choosen" class="satisfy-num">5</label>
-                    <input id="two" type="radio" name="answer-1" value=5  placeholder="">
+                    <input id="two" type="radio" required name="answer-1" value=5  placeholder="">
                 </div>
                 <div>
                     <span>excellent</span>
@@ -120,23 +122,23 @@
                 <div>Satisfactory</div>               
                 <div class="input-div">
                     <label for="three" name="choosen" class="satisfy-num">1</label>
-                    <input id="three" type="radio" name="answer-2" value=1 placeholder="">
+                    <input id="three" type="radio" required name="answer-2" value=1 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="three" name="choosen" class="satisfy-num">2</label>
-                    <input id="three" type="radio" name="answer-2" value=2 placeholder="">
+                    <input id="three" type="radio" required name="answer-2" value=2 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="three" name="choosen" class="satisfy-num">3</label>
-                    <input id="three" type="radio" name="answer-2" value=3 placeholder="">
+                    <input id="three" type="radio" required name="answer-2" value=3 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="three" name="choosen" class="satisfy-num">4</label>
-                    <input id="three" type="radio" name="answer-2" value=4 placeholder="">
+                    <input id="three" type="radio" required name="answer-2" value=4 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="three" name="choosen" class="satisfy-num">5</label>
-                    <input id="three" type="radio" name="answer-2" value=5 placeholder="">
+                    <input id="three" type="radio" required name="answer-2" value=5 placeholder="">
                 </div>
                 <div>
                     <span>excellent</span>
@@ -149,23 +151,23 @@
                 <div>Satisfactory</div>               
                 <div class="input-div">
                     <label for="four" name="choosen" class="satisfy-num">1</label>
-                    <input id="four" type="radio" name="answer-3" value=1 placeholder="">
+                    <input id="four" type="radio" required name="answer-3" value=1 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="four" name="choosen" class="satisfy-num">2</label>
-                    <input id="four" type="radio" name="answer-3" value=2 placeholder="">
+                    <input id="four" type="radio" required name="answer-3" value=2 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="four" name="choosen" class="satisfy-num">3</label>
-                    <input id="four" type="radio" name="answer-3" value=3 placeholder="">
+                    <input id="four" type="radio" required name="answer-3" value=3 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="four" name="choosen" class="satisfy-num">4</label>
-                    <input id="four" type="radio" name="answer-3" value=4 placeholder="">
+                    <input id="four" type="radio" required name="answer-3" value=4 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="four" name="choosen" class="satisfy-num">5</label>
-                    <input id="four" type="radio" name="answer-3" value=5 placeholder="">
+                    <input id="four" type="radio" required name="answer-3" value=5 placeholder="">
                 </div>
                 <div>
                     <span>excellent</span>
@@ -178,23 +180,23 @@
                 <div>Satisfactory</div>               
                 <div class="input-div">
                     <label for="five" name="choosen" class="satisfy-num">1</label>
-                    <input id="five" type="radio" name="answer-4" value=1 placeholder="">
+                    <input id="five" type="radio" required name="answer-4" value=1 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="five" name="choosen" class="satisfy-num">2</label>
-                    <input id="five" type="radio" name="answer-4" value=2 placeholder="">
+                    <input id="five" type="radio" required name="answer-4" value=2 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="five" name="choosen" class="satisfy-num">3</label>
-                    <input id="five" type="radio" name="answer-4" value=3 placeholder="">
+                    <input id="five" type="radio" required name="answer-4" value=3 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="five" name="choosen" class="satisfy-num">4</label>
-                    <input id="five" type="radio" name="answer-4" value=4  placeholder="">
+                    <input id="five" type="radio" required name="answer-4" value=4  placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="five" name="choosen" class="satisfy-num">5</label>
-                    <input id="five" type="radio" name="answer-4" value=5 placeholder="">
+                    <input id="five" type="radio" required name="answer-4" value=5 placeholder="">
                 </div>
                 <div>
                     <span>excellent</span>
@@ -207,23 +209,23 @@
                 <div>Satisfactory</div>               
                 <div class="input-div">
                     <label for="six" name="choosen" class="satisfy-num">1</label>
-                    <input id="six" type="radio" name="answer-5" value=1 placeholder="">
+                    <input id="six" type="radio" required name="answer-5" value=1 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="six" name="choosen" class="satisfy-num">2</label>
-                    <input id="six" type="radio" name="answer-5" value=2 placeholder="">
+                    <input id="six" type="radio" required name="answer-5" value=2 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="six" name="choosen" class="satisfy-num">3</label>
-                    <input id="six" type="radio" name="answer-5" value=3 placeholder="">
+                    <input id="six" type="radio" required name="answer-5" value=3 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="six" name="choosen" class="satisfy-num">4</label>
-                    <input id="six" type="radio" name="answer-5" value=4 placeholder="">
+                    <input id="six" type="radio" required name="answer-5" value=4 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="six" name="choosen" class="satisfy-num">5</label>
-                    <input id="six" type="radio" name="answer-5" value=5 placeholder="">
+                    <input id="six" type="radio" required name="answer-5" value=5 placeholder="">
                 </div>
                 <div>
                     <span>excellent</span>
@@ -236,23 +238,23 @@
                 <div>Satisfactory</div>               
                 <div class="input-div">
                     <label for="seven" name="choosen" class="satisfy-num">1</label>
-                    <input id="seven" type="radio" name="answer-6" value=1 placeholder="">
+                    <input id="seven" type="radio" required name="answer-6" value=1 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="seven" name="choosen" class="satisfy-num">2</label>
-                    <input id="seven" type="radio" name="answer-6" value=2 placeholder="">
+                    <input id="seven" type="radio" required name="answer-6" value=2 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="seven" name="choosen" class="satisfy-num">3</label>
-                    <input id="seven" type="radio" name="answer-6" value=3 placeholder="">
+                    <input id="seven" type="radio" required name="answer-6" value=3 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="seven" name="choosen" class="satisfy-num">4</label>
-                    <input id="seven" type="radio" name="answer-6" value=4 placeholder="">
+                    <input id="seven" type="radio" required name="answer-6" value=4 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="seven" name="choosen" class="satisfy-num">5</label>
-                    <input id="seven" type="radio" name="answer-6" value=5 placeholder="">
+                    <input id="seven" type="radio" required name="answer-6" value=5 placeholder="">
                 </div>
                 <div>
                     <span>excellent</span>
@@ -265,23 +267,23 @@
                 <div>Satisfactory</div>               
                 <div class="input-div">
                     <label for="eight" name="choosen" class="satisfy-num">1</label>
-                    <input id="eight" type="radio" name="answer-7" value=1 placeholder="">
+                    <input id="eight" type="radio" required name="answer-7" value=1 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="eight" name="choosen" class="satisfy-num">2</label>
-                    <input id="eight" type="radio" name="answer-7" value=2 placeholder="">
+                    <input id="eight" type="radio" required name="answer-7" value=2 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="eight" name="choosen" class="satisfy-num">3</label>
-                    <input id="eight" type="radio" name="answer-7" value=3 placeholder="">
+                    <input id="eight" type="radio" required name="answer-7" value=3 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="eight" name="choosen" class="satisfy-num">4</label>
-                    <input id="eight" type="radio" name="answer-7" value=4 placeholder="">
+                    <input id="eight" type="radio" required name="answer-7" value=4 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="eight" name="choosen" class="satisfy-num">5</label>
-                    <input id="eight" type="radio" name="answer-7" value=5 placeholder="">
+                    <input id="eight" type="radio" required name="answer-7" value=5 placeholder="">
                 </div>
                 <div>
                     <span>excellent</span>
@@ -294,23 +296,23 @@
                 <div>Satisfactory</div>               
                 <div class="input-div">
                     <label for="nine" name="choosen" class="satisfy-num">1</label>
-                    <input id="nine" type="radio" name="answer-8" value=1 placeholder="">
+                    <input id="nine" type="radio" required name="answer-8" value=1 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="nine" name="choosen" class="satisfy-num">2</label>
-                    <input id="nine" type="radio" name="answer-8" value=2 placeholder="">
+                    <input id="nine" type="radio" required name="answer-8" value=2 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="nine" name="choosen" class="satisfy-num">3</label>
-                    <input id="nine" type="radio" name="answer-8" value=3 placeholder="">
+                    <input id="nine" type="radio" required name="answer-8" value=3 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="nine" name="choosen" class="satisfy-num">4</label>
-                    <input id="nine" type="radio" name="answer-8" value=4 placeholder="">
+                    <input id="nine" type="radio" required name="answer-8" value=4 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="nine" name="choosen" class="satisfy-num">5</label>
-                    <input id="nine" type="radio" name="answer-8" value=5 placeholder="">
+                    <input id="nine" type="radio" required name="answer-8" value=5 placeholder="">
                 </div>
                     <div>
                     <span>excellent</span>
@@ -323,23 +325,23 @@
                 <div>Satisfactory</div>               
                 <div class="input-div">
                     <label for="ten" name="choosen" class="satisfy-num">1</label>
-                    <input id="ten" type="radio" name="answer-9" value=1 placeholder="">
+                    <input id="ten" type="radio" required name="answer-9" value=1 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="ten" name="choosen" class="satisfy-num">2</label>
-                    <input id="ten" type="radio" name="answer-9" value=2 placeholder="">
+                    <input id="ten" type="radio" required name="answer-9" value=2 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="ten" name="choosen" class="satisfy-num">3</label>
-                    <input id="ten" type="radio" name="answer-9" value=3 placeholder="">
+                    <input id="ten" type="radio" required name="answer-9" value=3 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="ten" name="choosen" class="satisfy-num">4</label>
-                    <input id="ten" type="radio" name="answer-9" value=4 placeholder="">
+                    <input id="ten" type="radio" required name="answer-9" value=4 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="ten" name="choosen" class="satisfy-num">5</label>
-                    <input id="ten" type="radio" name="answer-9" value=5 placeholder="">
+                    <input id="ten" type="radio" required name="answer-9" value=5 placeholder="">
                 </div>
                     <div>
                     <span>excellent</span>
@@ -353,23 +355,23 @@
                 <div>Satisfactory</div>               
                 <div class="input-div">
                     <label for="eleven" name="choosen" class="satisfy-num">1</label>
-                    <input id="eleven" type="radio" name="answer-10" value=1 placeholder="">
+                    <input id="eleven" type="radio" required name="answer-10" value=1 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="eleven" name="choosen" class="satisfy-num">2</label>
-                    <input id="eleven" type="radio" name="answer-10" value=2 placeholder="">
+                    <input id="eleven" type="radio" required name="answer-10" value=2 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="eleven" name="choosen" class="satisfy-num">3</label>
-                    <input id="eleven" type="radio" name="answer-10" value=3 placeholder="">
+                    <input id="eleven" type="radio" required name="answer-10" value=3 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="eleven" name="choosen" class="satisfy-num">4</label>
-                    <input id="eleven" type="radio" name="answer-10" value=4 placeholder="">
+                    <input id="eleven" type="radio" required name="answer-10" value=4 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="eleven" name="choosen" class="satisfy-num">5</label>
-                    <input id="eleven" type="radio" name="answer-10" value=5 placeholder="">
+                    <input id="eleven" type="radio" required name="answer-10" value=5 placeholder="">
                 </div>
 
                     <div>
@@ -383,23 +385,23 @@
                 <div>Satisfactory</div>               
                 <div class="input-div">
                     <label for="twelve" name="choosen" class="satisfy-num">1</label>
-                    <input id="twelve" type="radio" name="answer-11" value=1 placeholder="">
+                    <input id="twelve" type="radio" required name="answer-11" value=1 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="twelve" name="choosen" class="satisfy-num">2</label>
-                    <input id="twelve" type="radio" name="answer-11" value=2 placeholder="">
+                    <input id="twelve" type="radio" required name="answer-11" value=2 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="twelve" name="choosen" class="satisfy-num">3</label>
-                    <input id="twelve" type="radio" name="answer-11" value=3 placeholder="">
+                    <input id="twelve" type="radio" required name="answer-11" value=3 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="twelve" name="choosen" class="satisfy-num">4</label>
-                    <input id="twelve" type="radio" name="answer-11" value=4 placeholder="">
+                    <input id="twelve" type="radio" required name="answer-11" value=4 placeholder="">
                 </div>
                 <div class="input-div">
                     <label for="twelve" name="choosen" class="satisfy-num">5</label>
-                    <input id="twelve" type="radio" name="answer-11" value=5 placeholder="">
+                    <input id="twelve" type="radio" required name="answer-11" value=5 placeholder="">
                 </div>
                     <div>
                     <span>excellent</span>

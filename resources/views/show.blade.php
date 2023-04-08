@@ -13,6 +13,9 @@
 <body>
     
  <table>
+ <div>
+        <a class="admin-btn" href="/admin/dashboard">admin login</a>
+</div>
     <thead class="heading">
         <tr>
             <td>S.NO</td>
@@ -26,17 +29,15 @@
         <tr>
 
             <td>{{$loop->iteration}}</td>
-            <td>{{$subject->subjects}}  <td>
+            <td>{{$subject->subjects}}  </td>
             <td>{{$subject->subjectcode}}</td>
-            <td><a class="submit-btn" href='/subjects?subject={{$subject->subjects}}&subjectcode={{$subject->subjectcode}}&registernumber={{$registernumber}}'>Submit</a><td>
+            <td><a class="submit-btn" href='/subjects?subject={{$subject->subjects}}&subjectcode={{$subject->subjectcode}}&registernumber={{$registernumber}}'>Submit</a></td>
         <tr>
         @endforeach
     </tbody>
 </table>
 
-<div>
-        <a href="/admin/dashboard">admin login</a>
-</div>
+
 
 
 
