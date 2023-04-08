@@ -28,14 +28,7 @@
             </div>
 
             <div class="email-part">
-                <div class="validate-account">
-                    <span class="mail-id">20cs001@acetcbe.edu.in</span>
-                    <a href="https://accounts.google.com/AccountChooser?continue=https://docs.google.com/forms/d/e/1FAIpQLSd0miXZ8qrPnnnJDmtwyk-ZdrvKdjD0uPDq9lKeUG259WmqAw/viewform?edit_requested%3Dtrue&service=wise">Switch account</a>
-                </div>
-                <div class="draft">
-                    <img src="" alt="#">
-                    <span>Draft saved</span>
-                </div>
+    
             </div>
             <p>Your email will be recorded when you submit this form</p>
             <p class="required">*Required</p>
